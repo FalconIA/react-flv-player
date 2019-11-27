@@ -45,7 +45,11 @@ export default Index;
 | `stashInitialSize?`              | `number`  | `128`        (KB)              | Indicates IO stash buffer initial size. Default is `384KB`. Indicate a suitable size can improve video load/seek time. |
 | `height?`              | `px or %`  | `100%`                      |  |
 | `width?`              | `px or %`  | `100%`                      |  |
-| `isMuted?`              | `boolean`  | `required`                      | Indicates audio output when init the video |
+| `autoPlay?`        | `boolean`             | `false`  | |
+| `controls?`        | `boolean`             | `true`   | |
+| `controlsList?`    | `string`              | `undefied` | |
+| `loop?`            | `boolean`             | `false`  | |
+| `muted?`           | `boolean`             | `false`  | Indicates audio output when init the video |
 | `handleError?`              | `function`  | `(err)=>{console.log(err)}`                      |Handle errors, error type is enum |
 | `enableWarning?`        | `boolean`             | `false`           |Enable Warnings in Console|
 | `enableError?`        | `boolean`             | `false`           |Enable errors in Console|

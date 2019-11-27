@@ -1,5 +1,5 @@
 {
-  "name": "react-flv-player",
+  "name": "@falconia/react-flv-player",
   "version": "1.0.8",
   "description": "A React Component to play flv video",
   "keywords": [
@@ -16,14 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BingXiong1995/react-flv-player"
+    "url": "https://github.com/FalconIA/react-flv-player"
   },
   "author": "Bing Xiong(bingxiong666@gmail)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/BingXiong1995/react-flv-player/issues"
-  },
-  "homepage": "https://github.com/BingXiong1995/react-flv-player#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
