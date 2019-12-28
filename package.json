@@ -1,6 +1,6 @@
 {
   "name": "@falconia/react-flv-player",
-  "version": "1.0.8-beta.3",
+  "version": "1.0.8-beta.4",
   "description": "A React Component to play flv video",
   "keywords": [
     "react",
@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "babel-preset-react": "^6.24.1",
+    "flv.js": "^1.5.0",
     "object-assign": "^4.1.1",
     "prop-types": "^15.6.0",
     "react": "^16.8.6"
